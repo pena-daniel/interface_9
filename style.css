@@ -134,81 +134,33 @@ section{
     width: 100%;
     height:930px;
 }
+section div
+{
+    display: inline-block;
+    width: 215px;
+    min-height: 200px;
+    position: relative;
+    top: -35px;
+    padding: 5px;
+}
+section div:nth-of-type(1){  margin-left: 3%;}
+section div:nth-of-type(2),section div:nth-of-type(5){top: -85px;padding: 3px;}
+section div:nth-of-type(6){top: -165px;}
+section div:nth-of-type(3){top: 10px;}
+section div:nth-of-type(3) img{min-height: 100px;}
+section div:nth-of-type(2),section div:nth-of-type(3),section div:nth-of-type(5){width: 185px;}
 
 section .image_1{
-    display: inline-block;
-    max-width: 215px;
-    margin-top: 15px;
-    margin-left: 10px;
+    max-width: 220px;
     border-radius: 10px;
-    border: solid;
 }
 section .image_2{
-    display: inline-block;
-    max-width: 215px;
-    margin-top: 15px;
-    margin-left: 5px;
-    border-radius: 10px;
-    border: solid;
-    position: relative;
-    top: -125px;
-    
+    max-width: 175px;
+    border-radius: 10px; 
 }
 section .image_0{
-    display: inline-block;
-    max-width: 215px;
+    max-width: 210px;
     height: 230px;
-    margin-top: 15px;
-    margin-left: 5px;
     border-radius: 10px;
-    border: solid;
-    position: relative;
-    top: -53px;
 }
-
-section img:nth-of-type(8),section img:nth-of-type(11)
-{
-    position: relative;
-    top: -120px;
-}
-section img:nth-of-type(14),section img:nth-of-type(17)
-{
-    position: relative;
-    top: -185px;
-}
-section img:nth-of-type(9),section img:nth-of-type(12)
-{
-    position: relative;
-    top: -260px;
-}
-section img:nth-of-type(15),section img:nth-of-type(18)
-{
-    position: relative;
-    top: -400px;
-}
-section img:nth-of-type(19),section img:nth-of-type(22)
-{
-    width: 180px;
-    height: 165px;
-    position: relative;
-    top: -360px;
-    left: 230px;
-}
-section img:nth-of-type(20)
-{
-    position: relative;
-    top: -580px;
-    left: 230px;
-}
-section img:nth-of-type(21){
-    position: relative;
-    top: -390px;
-    left: 2px;
-}
-section img:nth-of-type(23){
-    position: relative;
-    top: -380px;
-    left: 220px;
-    max-width: 225px;
-    height: 330px;
-}
+section div:last-of-type .image_2{max-width: 200px;}
