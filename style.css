@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/* ----------------------traitement du header------------------------------------- */
+.container{
+    width: 100%;
+    height: 1100px;
+}
+header{
+    width: 100%;
+    height: 130px;
+    border-bottom: solid 1px grey;
+}
+header div{width: 100%;}
+
+.header_0{
+    background-color: black;
+    height: 70px;
+
+}
+.header_0 span{display: inline-block;}
+    
+.header_0 .message{
+    width: 60%;
+    height: 80%;
+    border: solid;
+}
+.header_0 .bouton{
+    width: 6%;
+    height: 60%;
+    border: solid; 
+    margin-left: 31%;
+}
+.header_0 .bouton input[type=submit]{
+    width: 100%;
+    height: 90%;
+    border-radius: 50px;
+    outline: none;
+}
+.header_1{display: inline-block;}
+.header_0 .message p{
+    color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+}
+.header_1{height:60px;}
+    
+.header_1 span{display: inline-block;}
+    
+.header_1 span:first-of-type{
+    width: 60%;
+    height: 100%;
+}
+.header_1 span:first-of-type input[type=search]{
+    outline: none;
+    width: 73%;
+    height: 35px;
+    border-radius: 8px;
+    border: solid 1px rgba(128, 128, 128, 0.466);
+    padding-left: 35px;
+    margin-left: 10%;
+    background-color: rgba(128, 128, 128, 0.157);
+}
+.header_1 span:first-of-type img:last-of-type{
+    max-width: 14px;
+    transform: rotateZ(7deg);
+    position: relative;
+    right: 72%;
+    top: 5%;
+}
+.header_1 span:first-of-type img:first-of-type{
+    position: relative;
+    left: 6%;
+    top: 20%;
+}
+.header_1 span:nth-of-type(2){
+    width: 25%;
+    height: 30px;
+    margin: inherit;
+}
+.header_1 span:nth-of-type(2) ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 12px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    opacity: .8;
+}
+.header_1 span:nth-of-type(2) ul:first-child li:first-of-type{
+    margin-left: -10%;
+    padding-right: 20px;
+    opacity: inherit;
+}
+
+.header_1 span:nth-of-type(2) ul:last-child li:last-of-type {
+    list-style: none;
+    display: inline-block;
+    padding-left: 25px;
+    opacity: .8;
+}
+.header_1 span:nth-of-type(2) ul:last-child li:last-of-type span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.315);
+    position: relative;
+    top: -5px;
+    text-align: center;
+}
+.header_1 span:nth-of-type(2) ul:last-child li:last-of-type span::before{
+    content: 'p';
+    text-align: center;
+    opacity: inherit;
+    position: relative;
+    top: 5px;
+}
+
+.header_1 span:last-of-type{
+    position: relative;
+    top:22%;
+}
+
+/* ---------------------------------positionement des images---------------------------------- */
+
+section{
+    width: 100%;
+    height:930px;
+}
+
+section .image_1{
+    display: inline-block;
+    max-width: 215px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: solid;
+}
+section .image_2{
+    display: inline-block;
+    max-width: 215px;
+    margin-top: 15px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: solid;
+    position: relative;
+    top: -125px;
+    
+}
+section .image_0{
+    display: inline-block;
+    max-width: 215px;
+    height: 230px;
+    margin-top: 15px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: solid;
+    position: relative;
+    top: -53px;
+}
+
+section img:nth-of-type(8),section img:nth-of-type(11)
+{
+    position: relative;
+    top: -120px;
+}
+section img:nth-of-type(14),section img:nth-of-type(17)
+{
+    position: relative;
+    top: -185px;
+}
+section img:nth-of-type(9),section img:nth-of-type(12)
+{
+    position: relative;
+    top: -260px;
+}
+section img:nth-of-type(15),section img:nth-of-type(18)
+{
+    position: relative;
+    top: -400px;
+}
+section img:nth-of-type(19),section img:nth-of-type(22)
+{
+    width: 180px;
+    height: 165px;
+    position: relative;
+    top: -360px;
+    left: 230px;
+}
+section img:nth-of-type(20)
+{
+    position: relative;
+    top: -580px;
+    left: 230px;
+}
+section img:nth-of-type(21){
+    position: relative;
+    top: -390px;
+    left: 2px;
+}
+section img:nth-of-type(23){
+    position: relative;
+    top: -380px;
+    left: 220px;
+    max-width: 225px;
+    height: 330px;
+}
