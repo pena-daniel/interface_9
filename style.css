@@ -138,17 +138,20 @@ section div
 {
     display: inline-block;
     width: 215px;
-    min-height: 200px;
+    height: 910px;
     position: relative;
-    top: -35px;
     padding: 5px;
+    overflow: hidden;
 }
 section div:nth-of-type(1){  margin-left: 3%;}
-section div:nth-of-type(2),section div:nth-of-type(5){top: -85px;padding: 3px;}
-section div:nth-of-type(6){top: -165px;}
-section div:nth-of-type(3){top: 10px;}
+section div:nth-of-type(2),section div:nth-of-type(5){
+    top: -5px;
+    padding: 3px;
+    width: 170px;
+}
+section div:nth-of-type(3){width: 175px; }
 section div:nth-of-type(3) img{min-height: 100px;}
-section div:nth-of-type(2),section div:nth-of-type(3),section div:nth-of-type(5){width: 185px;}
+section div:nth-of-type(2),section div:nth-of-type(5){width: 185px;}
 
 section .image_1{
     max-width: 220px;
